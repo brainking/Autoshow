@@ -1,0 +1,50 @@
+@charset "gb2312";
+
+/* 
+	@名称: grid
+	@功能: (30+10)*24= 960栅格系统
+*/
+.container{width:960px; margin:0 auto; overflow:hidden; background-color:#FFC;}
+.row{margin-left:-10px; overflow:hidden; clear:both; padding:8px 0;}
+
+
+.show-grid [class*="grid"] {
+	float: left;
+	margin-left:10px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	
+	background-color: #EEE;
+	text-align: center;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	min-height: 30px;
+	line-height: 30px;
+}
+
+.grid1{width:30px;}
+.grid2{width:70px;}
+.grid3{width:110px;}
+.grid4{width:150px;}
+.grid5{width:190px;}
+.grid6{width:230px;}
+.grid7{width:270px;}
+.grid8{width:310px;}
+.grid9{width:350px;}
+.grid10{width:380px;}
+.grid11{width:430px;}
+.grid12{width:470px;}
+.grid13{width:510px;}
+.grid14{width:560px;}
+.grid15{width:600px;}
+.grid16{width:640px;}
+.grid17{width:680px;}
+.grid18{width:720px;}
+.grid19{width:760px;}
+.grid20{width:800px;}
+.grid21{width:840px;}
+.grid22{width:880px;}
+.grid23{width:920px;}
+.grid24{width:960px;}
